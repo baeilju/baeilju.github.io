@@ -39,7 +39,7 @@
   말 그대로 project file이 아니라서 syntax errors만 보고하겠다는 것  
   *worksspace 정리하고 일단 지켜보는 걸로
 
-- Dependency file 이동 필요하면... 
+-  ".\target\dependency" 폴더에 pom.xml에서 의존성을 가진 패키지들을 생성
 ```
 <plugin>
     <artifactId>maven-dependency-plugin</artifactId>
