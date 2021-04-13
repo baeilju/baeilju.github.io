@@ -58,4 +58,26 @@
     </executions>
 </plugin>
 ```
+
+- jar 파일에 dependency 포함시키기
+```
+<plugin>
+    <artifactId>maven-assembly-plugin</artifactId>
+    <version>3.1.1</version>
+    <configuration>
+        <descriptorRefs>
+            <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
+    </configuration>
+    <executions>
+        <execution>
+            <id>make-assembly</id>                        <!-- this is used for inheritance merges -->
+            <phase>package</phase>                        <!-- bind to the packaging phase -->
+            <goals>
+                <goal>single</goal>
+            </goals>
+        </execution>
+    </executions>
+</plugin>
+```
 - 참고사이트 : https://www.sysnet.pe.kr/Default.aspx?mode=2&sub=0&pageno=13&detail=1&wid=11980
