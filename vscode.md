@@ -5,8 +5,7 @@
 - 수동으로 data폴더/하위 user-data, extensions, tmp 생성 필요
 - 참고설명: https://code.visualstudio.com/docs/editor/portable
 - 백업 시 data폴더 이동
-- GIT 경로 확인 필요 .gitcofig
-  => editor = \"D:\\pgr\\VSCode\\Code.exe\" --wait
+- GIT 경로 확인 필요 .gitcofig  => editor = \"D:\\pgr\\VSCode\\Code.exe\" --wait
 
 ## Spring 개발 환경 구축
 - Java, Tomcat, Maven 별도 설치 후
