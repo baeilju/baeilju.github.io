@@ -27,7 +27,7 @@
 ```
   여기로 이동함
 ```
-  <localRepository>D:\src\mvn\repository/localRepository>
+  <localRepository>D:\src\mvn\repository</localRepository>
 ```
 
 
