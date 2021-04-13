@@ -16,7 +16,8 @@
 - Java, Tomcat, Maven 별도 설치 후
 - extenstion 설치 : Java Extension Pack (*추가작성)
 
-## 테스트
-### 특이사항
+## 특이사항
 - *.java is a non-project file, only syntax errors are reported”
-- java 파일 생성 후 빌드 시 발생
+  기존 작업 공간에 java 파일 생성 후 빌드 시 발생, VSCode를 별도로 열어 가동하니 사라짐  
+  말 그대로 project file이 아니라서 syntax errors만 보고하겠다는 것  
+  worksspace 정리하고 일단 지켜보는 걸로
