@@ -15,6 +15,21 @@
 ## Spring 개발 환경 구축
 - Java, Tomcat, Maven 별도 설치 후
 - extenstion 설치 : Java Extension Pack (*추가작성)
+- maven repository 변경  
+  C:\Users\Administrator\.m2\repository
+```
+  <!-- localRepository
+   | The path to the local repository maven will use to store artifacts.
+   |
+   | Default: ${user.home}/.m2/repository
+  <localRepository>/path/to/local/repo</localRepository>
+  -->
+```
+  여기로 이동함
+```
+  <localRepository>D:\src\mvn\repository/localRepository>
+```
+
 
 ## 특이사항
 ```
