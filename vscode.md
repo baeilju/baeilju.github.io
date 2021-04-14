@@ -29,7 +29,12 @@
 ```
   <localRepository>D:\src\mvn\repository</localRepository>
 ```
-
+- 그래도 빌드를 하면 user\.m2\repository 폴더에 dependency file 생성  
+  Preperence > Setting > 'maven' > global, user setting에 settings.xml 경로 추가 (global은 생략 가능?)
+```
+"java.configuration.maven.globalSettings": "D:\\pgr\\apache-maven\\conf\\settings.xml"
+"java.configuration.maven.userSettings": "D:\\pgr\\apache-maven\\conf\\settings.xml"
+```
 
 ## 특이사항
 ```
