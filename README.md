@@ -1,4 +1,4 @@
-# baeilju.github.io / (Wait...)
+# baeilju.github.io
 
 ### Contents List
 - [msa](msa)
