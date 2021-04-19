@@ -1,19 +1,22 @@
-jupyter 시작폴더 위치 변경
+### jupyter 시작폴더 위치 변경
+- config file 생성
 ```
 jupyter notebook --generate-config
 
 ```
-C:\Users\사용자이름\.jupyter\jupyter_notebook_config.py
+- config file 내 경로 수정
 ```
+# C:\Users\사용자이름\.jupyter\jupyter_notebook_config.py
+# 주석 제거 후 원하는 위치 작성
 #c.NotebookApp.notebook_dir=''
 ```
-
-Shotcut 경로를 아래처럼 변경하니, 시작 위치 변경됨
+- Shotcut 실행 경로 변경 (이것만 하면 되는 듯)
 ```
 D:\pgr\Anaconda3\python.exe D:\pgr\Anaconda3\cwp.py D:\pgr\Anaconda3 D:\pgr\Anaconda3\python.exe D:\pgr\Anaconda3\Scripts\jupyter-notebook-script.py "D:\src\py"
 ```
 
-파일 절대 경로 읽어오기 실행안됨
+### 미해결
+- 파일 절대 경로 읽어오기 실행안됨
 ```
 path= os.path.dirname(os.path.abspath(__file__))
 ```
