@@ -100,3 +100,18 @@ pip install -U httpie
 # Test
 http GET http://www.example.com
 ```
+
+- JAVA Version 문제로 인한 Warning
+```
+Build path specifies execution environment JavaSE-1.7. There are no JREs installed in the workspace that are strictly compatible with this environment. 
+The compiler compliance specified is 1.7 but a JRE 11 is used
+```
+
+- JDK 11인 경우 아래와 같이 1.11로 변경할 것
+```
+ <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.11</maven.compiler.source>
+    <maven.compiler.target>1.11</maven.compiler.target>
+  </properties>
+```
