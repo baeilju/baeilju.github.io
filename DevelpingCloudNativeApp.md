@@ -2,6 +2,7 @@
 - Microservice Analysis & Design
   - Domain Driven Design
     - https://steemit.com/kr/@frontalnh/domain-driven-design
+    - https://happycloud-lee.tistory.com/94
   - DDD Design Pattern
   - MSA Design Pattern
   - Service Identification/Decomposition
