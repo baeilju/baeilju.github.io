@@ -1,6 +1,7 @@
 ### Developing Cloud Native Application
 - Microservice Analysis & Design
   - Domain Driven Design
+    - https://steemit.com/kr/@frontalnh/domain-driven-design
   - DDD Design Pattern
   - MSA Design Pattern
   - Service Identification/Decomposition
