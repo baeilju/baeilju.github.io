@@ -1,18 +1,33 @@
-### Developing Cloud Native Application
-- Microservice Analysis & Design
-  - Domain Driven Design
+## Developing Cloud Native Application
+### Microservice Analysis & Design
+- Domain Driven Design
+  - 참고사이트
     - https://steemit.com/kr/@frontalnh/domain-driven-design
     - https://happycloud-lee.tistory.com/94
-  - DDD Design Pattern
-  - MSA Design Pattern
-  - Service Identification/Decomposition
-  - Bounded Context, Aggregate, Biz. capability/mini service
-  - Service Union? Integration?
-  - Context Mapping
-  - Request/Response MSA (HTTP/REST ?)
-  - Event Driven MSA
-  - Outer Architecture : API GW, Kafka, Service Registry, Load Valence, 서킷브레이커, 사이드카 패턴
-- Dev. Microservice Unit
+  - 주요용어
+    - Strategic Desing, Tatical Design
+    - Biz. Domain
+    - Context, Bounded Context
+    - Domain Model : Sub-domain + Bounded Context
+    - Context Map
+    - Core, Supporting, Generic Sub-domain
+    - Event, Process, Command, Actor, External System, Policy
+    - Aggregate : Entity, Value Object, Root Entity
+    - RPO : Root-only, Primary key, One to one
+    - Model driven design
+    - Layered Design : Presenstation, Service, Domain Objects, Data Mapper, Data Access
+    - Factory, Repository
+    - API 명세서, Message 설계서, Microservice Pattern
+- DDD Design Pattern
+- MSA Design Pattern
+- Service Identification/Decomposition
+- Bounded Context, Aggregate, Biz. capability/mini service
+- Service Union? Integration?
+- Context Mapping
+- Request/Response MSA (HTTP/REST ?)
+- Event Driven MSA
+- Outer Architecture : API GW, Kafka, Service Registry, Load Valence, 서킷브레이커, 사이드카 패턴
+### Dev. Microservice Unit
   - DDD + Event storming -> Hexagonal Architecture Mapping
   - Spring Boot/Maven -> Wrapping Service Unit
   - Dev. domain model, adapter /w JPA
