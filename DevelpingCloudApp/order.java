@@ -1,5 +1,4 @@
 
-```
 package shopmall;
 
 import javax.persistence.*;
@@ -60,4 +59,3 @@ public class Order {
 
 
 }
-```
