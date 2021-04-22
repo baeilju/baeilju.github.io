@@ -24,7 +24,7 @@ public class AbstractEvent {
         this.timestamp = defaultSimpleDateFormat.format(new Date());
     }
 
-    public String toJson(){
+    public String toJson(){ // serialization, 직렬화 graph구조의 object를 json 문자열 형식으로 전환
         ObjectMapper objectMapper = new ObjectMapper();
         String json = null;
 
