@@ -1,4 +1,6 @@
 ### Overview
+- Get the classes, methods, attributes of the system from the Business Domain.  
+  (Use the Business Domain Language)
 - Business Domain으로부터 모든 서비스 설계를 시작하는 개발 방법론
 - 시스템의 구성요소(Class, Method, Variable)를 Business Domain과 매칭하여 도출함
 
