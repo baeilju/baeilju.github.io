@@ -1,6 +1,6 @@
 # baeilju.github.io
 
-### Contents List
+### Contents
 - [msa](msa)
 - [vscode](vscode)
 
