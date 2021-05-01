@@ -10,7 +10,12 @@ ZEDADA
 | control and security for the distributed edge with the freedom of deploying and managing 
 | any app on any hardware at scale and connecting to any cloud or on-premises systems.
 
+Visibility, Control and Security for the Distributed Edge
 
 
-참고  
-Edge Computing
+### References  
+- ZEDADA Homepage: https://zededa.com/
+- https://www.businesswire.com/news/home/20210428006164/en/
+- https://cloudify.co/blog/birth-of-edge-orchestrator-cloudify/
+- https://assets.ext.hpe.com/is/content/hpedam/a50002477enw
+- https://www.intel.com/content/dam/www/public/us/en/documents/white-papers/simplifying-edge-orchestration.pdf
