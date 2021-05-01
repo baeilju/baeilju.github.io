@@ -14,6 +14,13 @@ ZEDADA
 ### Overview
 > ZEDEDA is a simple and scalable cloud-based orchestration solution that delivers visibility, control and security for the distributed edge with the freedom of deploying and managing any app on any hardware at scale and connecting to any cloud or on-premises systems.
 
+Remote & Centralized Deployment and Management at Scale
+• Deploy or upgrade apps and base OS of hardware
+• Visibility, reports and status of all hardware and apps
+• Alerting, events, resource utilization, and analytics 
+
+
+
 Visibility, Control and Security for the Distributed Edge
 
 
