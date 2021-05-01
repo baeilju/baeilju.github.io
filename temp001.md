@@ -1,8 +1,4 @@
 
-Edge단 클라우드 운영을 위한 고려사항
-- Scalability
-- Fexibility: intent based orchastration
-- Ease of Use
 
 
 ### Overview
@@ -38,9 +34,9 @@ Open Edge Ecosystem of Apps and Solutions
 - BYO-Apps in branded/private store
 - Single-click bulk deployment (or updates) of apps
 
-
-Visibility, Control and Security for the Distributed Edge
-
+### X-Notes
+- Visibility, Control and Security for the Distributed Edge
+- Edge단 클라우드 운영을 위한 고려사항 Scalability, Fexibility, Ease of Use
 
 ### References  
 - ZEDADA Homepage: 
