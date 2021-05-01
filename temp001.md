@@ -1,4 +1,10 @@
-Edge단 클라우드 운영을 위한 Key Feature
+
+> Edge에서 클라우드 운영을 위해서는 
+
+Edge단 클라우드 운영을 위한 고려사항
+- Scalability
+- Fexibility: intent based orchastration
+- Ease of Use
 
 
 ZEDADA  
@@ -6,9 +12,7 @@ ZEDADA
 - Edge단 cloud 운영을 위한 솔루션
 
 ### Overview
-| ZEDEDA is a simple and scalable cloud-based orchestration solution that delivers visibility, 
-| control and security for the distributed edge with the freedom of deploying and managing 
-| any app on any hardware at scale and connecting to any cloud or on-premises systems.
+> ZEDEDA is a simple and scalable cloud-based orchestration solution that delivers visibility, control and security for the distributed edge with the freedom of deploying and managing any app on any hardware at scale and connecting to any cloud or on-premises systems.
 
 Visibility, Control and Security for the Distributed Edge
 
