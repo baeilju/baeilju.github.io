@@ -1,3 +1,5 @@
+### Summary
+Edge Computing은 데이터 전송 비용, 실시간 응답, 보안 이슈로 인하여 상위 IT Server단이 아닌 Edge(현장) 단에서 Computing을 위한 자원을 소모하여 서비스를 제공하는 기술을 일컫습니다. Edge단에서 Cloud 기술을 적용하여 서비스를 하고자 한다면 기존 Cloud Server 환경과 마찬가지로 배포/연결/운영/자원 관리를 위한 공통적인 Orchestration 기술 적용이 필요하고, 추가적으로 Edge단이 가지고 있는 운영 환경의 특수성을 돌파할 수 있는 기술이 필요합니다.  
 
 
 
