@@ -1,0 +1,11 @@
+### Data
+- Impala Hook 자동화
+- Distcp manager
+- LDAP
+- kerberos
+- Hive & Impala
+- ODW
+- ETL Lineage / Pipeline / 메타
+- happelin
+- CDP KUDU Connector
+- SQOOP
