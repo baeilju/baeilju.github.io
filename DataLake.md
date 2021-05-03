@@ -1,6 +1,5 @@
 ### Data
 - Impala: Query Process Engine, 분산/병렬
-- ElasticSearch: Query Process Engine, Data Storage
 - Impala Hook 자동화
 - Distcp manager
 - LDAP
@@ -12,6 +11,9 @@
 - CDP KUDU Connector
 - SQOOP
 
+### ETC.
+- ElasticSearch: Query Process Engine, Data Storage
+- React, Hook
 
 ### References
 - [Kudu를 이용한 빅데이터 다차원 분석 시스템 개발](https://d2.naver.com/helloworld/9099561)
