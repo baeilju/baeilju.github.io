@@ -18,7 +18,7 @@ manager
 - React, Hook
 
 ### References
-[1] Kudu를 이용한 빅데이터 다차원 분석 시스템 개발 : https://d2.naver.com/helloworld/9099561
+[1] Kudu를 이용한 빅데이터 다차원 분석 시스템 개발 : https://d2.naver.com/helloworld/9099561  
 [2] https://myownopinions.tistory.com/4 [이것저것 하고싶은 이야기들]
 
 ### More
