@@ -18,7 +18,7 @@
 ### References
 [1] Impala 외: Kudu를 이용한 빅데이터 다차원 분석 시스템 개발 : https://d2.naver.com/helloworld/9099561  
 [2] Distcp: https://myownopinions.tistory.com/4 [이것저것 하고싶은 이야기들]  
-[3] LDAP: https://medium.com/happyprogrammer-in-jeju/ldap-%ED%94%84%ED%86%A0%ED%86%A0%EC%BD%9C-%EB%A7%9B%EB%B3%B4%EA%B8%B0-15b53c6a6f26
+[3] LDAP: https://medium.com/happyprogrammer-in-jeju/ldap-%ED%94%84%ED%86%A0%ED%86%A0%EC%BD%9C-%EB%A7%9B%EB%B3%B4%EA%B8%B0-15b53c6a6f26  
 [4] kerberos: https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%B2%84%EB%A1%9C%EC%8A%A4  
 [5] Hive vs Impala (https://data-science-hi.tistory.com/22)
 ### More
