@@ -22,6 +22,7 @@
 [3] LDAP: https://medium.com/happyprogrammer-in-jeju/ldap-%ED%94%84%ED%86%A0%ED%86%A0%EC%BD%9C-%EB%A7%9B%EB%B3%B4%EA%B8%B0-15b53c6a6f26  
 [4] kerberos: https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%B2%84%EB%A1%9C%EC%8A%A4  
 [5] Hive vs Impala (https://data-science-hi.tistory.com/22)
+[6] https://cloud.google.com/learn/what-is-etl?hl=ko
 
 ### More
 - Impala hook api
