@@ -1,4 +1,5 @@
 ### Data
+- Impala: Query Process Engine, 분산/병렬
 - Impala Hook 자동화
 - Distcp manager
 - LDAP
