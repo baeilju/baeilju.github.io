@@ -1,5 +1,6 @@
 ### Data
 - Impala: Query Process Engine, 분산/병렬
+- ElasticSearch: Query Process Engine, Data Storage
 - Impala Hook 자동화
 - Distcp manager
 - LDAP
