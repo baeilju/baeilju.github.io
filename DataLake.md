@@ -16,8 +16,9 @@
 - React, Hook
 
 ### References
-[1] Kudu를 이용한 빅데이터 다차원 분석 시스템 개발 : https://d2.naver.com/helloworld/9099561  
-[2] https://myownopinions.tistory.com/4 [이것저것 하고싶은 이야기들]
+[1] Impala 외: Kudu를 이용한 빅데이터 다차원 분석 시스템 개발 : https://d2.naver.com/helloworld/9099561  
+[2] Distcp: https://myownopinions.tistory.com/4 [이것저것 하고싶은 이야기들]  
+[3] LDAP: https://medium.com/happyprogrammer-in-jeju/ldap-%ED%94%84%ED%86%A0%ED%86%A0%EC%BD%9C-%EB%A7%9B%EB%B3%B4%EA%B8%B0-15b53c6a6f26
 
 ### More
 - Impala hook api
