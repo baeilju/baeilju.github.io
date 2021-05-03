@@ -23,6 +23,7 @@
 [4] kerberos: https://ko.wikipedia.org/wiki/%EC%BB%A4%EB%B2%84%EB%A1%9C%EC%8A%A4  
 [5] Hive vs Impala (https://data-science-hi.tistory.com/22)
 [6] https://cloud.google.com/learn/what-is-etl?hl=ko
+[7] https://docs.cloudera.com/cdp-private-cloud-base/7.1.6/kudu-overview/topics/kudu-architecture-cdp-public-cloud.html
 
 ### More
 - Impala hook api
