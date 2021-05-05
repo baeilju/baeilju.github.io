@@ -1,4 +1,4 @@
-The Enterprise Big Data Lake
+# The Enterprise Big Data Lake
 
 ### 1장 데이터 레이크 소개
 - 데이터 레이크 성숙도
