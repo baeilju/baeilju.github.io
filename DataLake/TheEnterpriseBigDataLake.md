@@ -24,6 +24,12 @@ DataLake: BigData Tech. + SelfService + Etc
 - 데이터 웨어하우스 생태계
 
 ### 3장 빅데이터와 데이터 과학 소개
+MapReduce: Mapper + Reducer  
+Mapper: 특정 함수에 대한 병렬처리를 위하여 Node 단위로 함수를 Mapping하는 역할 수행  
+Reducer: Mapper 처리 결과를 받아서 Master 생성  
+Q) Node Design/분할 구성은 자동으로 이뤄지나?  
+Q) Mapper는 Node와 1:1 관계인가?  
+
 - 하둡: 빅데이터로의 역사적인 움직임을 이끌어내다
 >  Hadoop: MapReduce에 데이터를 효율적으로 전달하기 위한 파일 시스템
 - 데이터 과학
