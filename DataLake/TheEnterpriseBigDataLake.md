@@ -2,6 +2,7 @@
 
 ### Chapter 1. Introduction of Data Lake
 > 데이터레이크는 빅데이터 기술과 셀프서비스 유연성의 결합하려는 대담한 접근법이다.  
+
 DataLake: BigData + SelfService + Etc  
 
 > James Dixon: "데이터레이크의 내용물은 소스에서 흘러나와 레이크를 채우고, 여러 사용자가 확인하거나, 내부에 뛰어들고, 표본을 가져가기도 한다"  
