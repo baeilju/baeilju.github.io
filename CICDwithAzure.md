@@ -8,7 +8,7 @@
 - Cloud Platform에 따라 github와 같은 repository의 src 변동과 연계되어 배포까지 자동 수행하고 있음(Azure 등)
 
 ## Azure
-### Portal
+### Portal : aks, acr 생성, 셋팅
 필수적인 서비스 구조는 대략 아래와 같음.  
 ```
 Azure AD
@@ -27,8 +27,15 @@ Azure AD
 - Portal 내 CLI 혹은 Local CLI에서 작업 가능함
 
 ```bash
-$ az login
 // login 후 링크를 타고 계정 확인함
+$ az login
+
+// aks, acr은 portal에서 생성하거나 아래처럼 CLI에서 생성함
+// aks 생성
+$ az aks create --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME) --node-count 2 --enable-addons monitoring --generate-ssh-keys
+
+// acr (Azure Container Registry) 생성
+$ az acr create --resource-group (RESOURCE-GROUP-NAME) --name (REGISTRY-NAME) --sku Basic
 
 // 자격증명 다운로드하고, 이를 사용할 수 있게 설정함 ?
 $ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
@@ -36,14 +43,42 @@ $ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-
 //Azure AKS에 ACR Attach 설정
 $ az aks update -n (Cluster-NAME) -g (RESOURCE-GROUP-NAME) --attach-acr (REGISTRY-NAME)
 
-
+// azure container 삭제
 $ kubectl delete deploy --all
 $ kubectl delete service --all
 
 ```
-### Azure/Dev
+### Kubenetis
+deployment.yaml
+```yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: _name
+  labels:
+    app: _app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: _app
+template:
+  metadata:
+    labels:
+      app: nginx
+spec:
+  containers: 
+    - name: nginx
+      image: nginx:1.7.9
+      ports: 
+      - containerPort: 80
+```
 
-### Pipeline
+
+### Dev
+- dev.azure.com
+- 조직, 프로젝트 등 입력하고 들어감
+2
 
 
 ## References
