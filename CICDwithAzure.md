@@ -42,8 +42,7 @@ $ az login
 // login 후 링크를 타고 계정 확인함
 
 // K8s Client 에 Target Context 설정
-//$ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
-$ az aks get-credentials --resource-group User11-rsrcgrp --name user11-aks
+$ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
 ```
 
 ### Pipeline
