@@ -11,15 +11,15 @@
 ### Portal
 아래와 같은 구조로 서비스 되고 있음
 ```
-+-- Azure AD
-  +-- Users
-  +-- Groups
-  +-- Apps
-  +-- Subscriptions
-    +-- Resource Groups
-      +-- Resource: Kubenetis Service
-      +-- Resource: Container Registry
-      +-- Resource: etc.
+Azure AD
+├─ Users
+├─ Groups
+├─ Apps
+└─ Subscriptions
+   └─ Resource Groups
+      ├─ Resource: Kubenetis Service
+      ├─ Resource: Container Registry
+      └─ Resource: etc.
 ```
 AD 가입 후 구매 정보 입력해야 Subscription 생성됨  
 
