@@ -17,8 +17,9 @@
   +-- Apps
   +-- Subscriptions
     +-- Resource Groups
-      +-- Resource : Kubenetis Service
-      +-- Resource : Container Registry
+      +-- Resource: Kubenetis Service
+      +-- Resource: Container Registry
+      +-- Resource: etc.
 ```
 AD 가입 후 구매 정보 입력해야 Subscription 생성됨  
 
@@ -43,10 +44,10 @@ $ az login
 // login 후 링크를 타고 계정 확인함
 
 // K8s Client 에 Target Context 설정
-$ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
+az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
 
 //Azure AKS에 ACR Attach 설정
-$ az aks update -n (Cluster-NAME) -g (RESOURCE-GROUP-NAME) --attach-acr (REGISTRY-NAME)
+az aks update -n (Cluster-NAME) -g (RESOURCE-GROUP-NAME) --attach-acr (REGISTRY-NAME)
 
 
 $ kubectl delete deploy --all
