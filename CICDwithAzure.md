@@ -1,12 +1,12 @@
 
-## CI/CD
+## CICD
 - Microservice의 Pipeline은 복잡하여 이를 자동화할 수 있는 Tool을 필요로 함
 - CI : 최종 산출물은 Docker Image이고, Build Path에 따라 Package부터 Image/Container를 계층적으로 누적함  
 - CD : Image를 이용하여 Pod를 구성하고, Platform 운영 환경에 올리는 작업을 수행함
 - Orchestration Cluster(k8s) : 서비스 호출 대응, 로드 밸런스, 장애 복구, 자원 할당 등을 수행함
 - CICD in Cloud Platform(AWS, Azure...) : 대부분 k8s를 기반으로 CICD pipeline이 구축됨. UI를 통해 간단히 셋팅함 
 
-## CICD Java Springboot PJT
+## CICD for Springboot/Docker/K8S
 mvn -> docker -> kubectl
 
 ### Maven
