@@ -10,7 +10,7 @@
 mvn -> docker -> kubectl
 
 ### Maven
-```sh
+```java
 mvn package
 ```
 
