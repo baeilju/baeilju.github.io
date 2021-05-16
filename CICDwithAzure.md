@@ -8,14 +8,15 @@
 - Cloud Platform에 따라 github와 같은 repository의 src 변동과 연계되어 배포까지 자동 수행하고 있음(Azure 등)
 
 ### Azure
-Azure AD +- Users
-         +- Groups
-
+아래와 같은 구조로 서비스 되고 있음
 ```
-+-- data
-        +-- train
-        +-- test
-+-- jupyter
++- Azure AD
+  +- Users
+  +- Groups
+  +- Subscriptions
+    +- Resource Groups
+      +- Resource : Kubenetis Service
+      +- Resource : ACR Registry
 ```
 ### Pipeline
 
