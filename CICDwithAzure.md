@@ -11,12 +11,12 @@
 Azure AD +- Users
          +- Groups
 
-.
+```
 +-- data
         +-- train
         +-- test
 +-- jupyter
-
+```
 ### Pipeline
 
 
