@@ -39,15 +39,15 @@ AD 가입 후 구매 정보 입력해야 Subscription 생성됨
   Cloud Client, K8S Client가 먼저 설치되어 있어야 함  
   (Azure Portal에서 Cloud Shell 지원함)
 
-```bash
+```shell
 $ az login
 // login 후 링크를 타고 계정 확인함
 
 // K8s Client 에 Target Context 설정
-az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
+$ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
 
 //Azure AKS에 ACR Attach 설정
-az aks update -n (Cluster-NAME) -g (RESOURCE-GROUP-NAME) --attach-acr (REGISTRY-NAME)
+$ az aks update -n (Cluster-NAME) -g (RESOURCE-GROUP-NAME) --attach-acr (REGISTRY-NAME)
 
 
 $ kubectl delete deploy --all
