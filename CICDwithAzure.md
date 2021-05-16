@@ -49,7 +49,8 @@ $ kubectl delete service --all
 
 ```
 ### Kubenetis
-deployment.yaml
+- kubenetis object model
+- deployment.yaml
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
