@@ -13,11 +13,39 @@
 +-- Azure AD
   +-- Users
   +-- Groups
+  +-- Apps
   +-- Subscriptions
     +-- Resource Groups
       +-- Resource : Kubenetis Service
-      +-- Resource : ACR Registry
+      +-- Resource : Container Registry
 ```
+AD 가입 후 구매 정보 입력해야 Subscription 생성됨  
+
+- Resource Groups 생성  
+  Subscrioptn이 있어야 만들 수 있음  
+  Subscription과 Sevice Region만 등록하면 간단히 생성됨
+  
+- Container Registry 생성  
+  기본 Contioner (Ubuntu...)  
+  Market에서 서비스 찾아서 이름 정하고, 등록하면 끝  
+  
+- AKS Cluster 생성  
+  K8S version : 일단 최신 버전 진행함, 다른 시스템과 연계가 필요한 경우 호환성 확인할 것
+  노드 사이즈, 개수 : *셋팅에 대한 지식 없음*
+
+- Client 환경  
+  Cloud Client, K8S Client가 먼저 설치되어 있어야 함  
+  (Azure Portal에서 Cloud Shell 지원함)
+
+```bash
+$ az login
+// login 후 링크를 타고 계정 확인함
+
+// K8s Client 에 Target Context 설정
+//$ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-NAME)
+$ az aks get-credentials --resource-group User11-rsrcgrp --name user11-aks
+```
+
 ### Pipeline
 
 
