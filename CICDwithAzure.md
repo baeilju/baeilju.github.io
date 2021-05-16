@@ -8,7 +8,8 @@
 - Cloud Platform에 따라 github와 같은 repository의 src 변동과 연계되어 배포까지 자동 수행하고 있음(Azure 등)
 
 ### Azure
-
+Azure AD +- Users
+         +- Groups
 
 ### Pipeline
 
