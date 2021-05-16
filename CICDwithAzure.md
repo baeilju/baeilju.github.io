@@ -65,11 +65,11 @@ spec:
 template:
   metadata:
     labels:
-      app: nginx
+      app: _app
 spec:
   containers: 
-    - name: nginx
-      image: nginx:1.7.9
+    - name: _name
+      image: _image
       ports: 
       - containerPort: 80
 ```
