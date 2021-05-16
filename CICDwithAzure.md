@@ -39,7 +39,7 @@ AD 가입 후 구매 정보 입력해야 Subscription 생성됨
   Cloud Client, K8S Client가 먼저 설치되어 있어야 함  
   (Azure Portal에서 Cloud Shell 지원함)
 
-```shell
+```console
 $ az login
 // login 후 링크를 타고 계정 확인함
 
