@@ -46,6 +46,11 @@ $ az aks get-credentials --resource-group (RESOURCE-GROUP-NAME) --name (Cluster-
 
 //Azure AKS에 ACR Attach 설정
 $ az aks update -n (Cluster-NAME) -g (RESOURCE-GROUP-NAME) --attach-acr (REGISTRY-NAME)
+
+
+$ kubectl delete deploy --all
+$ kubectl delete service --all
+
 ```
 
 ### Pipeline
