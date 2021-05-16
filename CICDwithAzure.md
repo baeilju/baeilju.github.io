@@ -10,13 +10,13 @@
 ### Azure
 아래와 같은 구조로 서비스 되고 있음
 ```
-+- Azure AD
-  +- Users
-  +- Groups
-  +- Subscriptions
-    +- Resource Groups
-      +- Resource : Kubenetis Service
-      +- Resource : ACR Registry
++-- Azure AD
+  +-- Users
+  +-- Groups
+  +-- Subscriptions
+    +-- Resource Groups
+      +-- Resource : Kubenetis Service
+      +-- Resource : ACR Registry
 ```
 ### Pipeline
 
