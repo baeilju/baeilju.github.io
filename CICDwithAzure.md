@@ -8,6 +8,7 @@
 - Cloud Platform에 따라 github와 같은 repository의 src 변동과 연계되어 배포까지 자동 수행하고 있음(Azure 등)
 
 ### Azure
+#### Portal
 아래와 같은 구조로 서비스 되고 있음
 ```
 +-- Azure AD
