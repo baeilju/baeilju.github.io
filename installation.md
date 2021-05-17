@@ -1,22 +1,33 @@
-## 기본 설치
-- Installer Ver의 경우 Extension 설치 위치를 특정할 수 없음 -> VSCode Portable Ver 설치함
-- 다운로경로: https://code.visualstudio.com/Download
-- .zip으로 되어 있는 파일 받아서 압축해제
-- 수동으로 data폴더/하위 user-data, extensions, tmp 생성 필요
-- 참고설명: https://code.visualstudio.com/docs/editor/portable
-- 백업 시 data폴더 이동
-- GIT 경로 확인 필요 .gitcofig
+## VS Code
+- System / User / Portable 3가지 Version 있음
+- Downloads: https://code.visualstudio.com/Download
+- Portable Ver.
+  - 압축풀고 직접 data 폴더 만들고, 하위에 user-data, extensions, tmp 만들어야 함  
+    참고설명: https://code.visualstudio.com/docs/editor/portable
+  - 탐색기 파일, 폴더 우클릭 시 연결하려면 Registry 직접 수정해야 함  
+    -> 이 부분이 귀찮아서 System Version 설치함
+- System Install Version
+  - extensions, user-data folder 위치 변경은 아래와 같이 함
 ```
-...  
-> editor = \"D:\\pgr\\VSCode\\Code.exe\" --wait  
-...
+code --extensions-dir="C:\Program Files\Microsoft VS Code\data\extensions"
+code --user-data-dir="C:\Program Files\Microsoft VS Code\data\user-data"
 ```
 
 ## Spring 개발 환경 구축
-- Java, Tomcat, Maven 별도 설치 후
-- extenstion 설치 : Java Extension Pack (*추가작성)
-- maven repository 변경  
-  C:\Users\Administrator\.m2\repository
+- JDK 11 install version 설치
+- Tomcat, Maven은 최신 버전 binary Downloads
+- 설치 설정
+  - https://devpad.tistory.com/8
+  - https://devpad.tistory.com/19?category=773041
+- Maven .m2 repository 위치
+  - 기본 위치는 user/.m2/repository
+  - maven/conf/setting.xml 내 수정하여 변경 가능
+  - 변경 시 vscode 내 setting에서 mvn setting.xml 잡아주어야 함
+  - vscode extension 중 setting 위치를 못잡는 것이 있는 것으로 추정  
+    -> 이 문제 해결못함, 그래서 위치 변경하치 않고, 기본 위치 사용
+  - Project 별로 dependency 별도 다운로드가 하거나,  
+    타 시스템에서 로컬 repo. 필요하다면 설정 변경 필요함
+MVN Repository 이동 시 아래 주석 해제하고 위치 지정하면 됨
 ```
   <!-- localRepository
    | The path to the local repository maven will use to store artifacts.
@@ -25,15 +36,38 @@
   <localRepository>/path/to/local/repo</localRepository>
   -->
 ```
-  여기로 이동함
-```
-  <localRepository>D:\src\mvn\repository</localRepository>
-```
-- 그래도 빌드를 하면 user\.m2\repository 폴더에 dependency file 생성  
+- vscode mvn repository setting  
   Preperence > Setting > 'maven' > global, user setting에 settings.xml 경로 추가 (global은 생략 가능?)
 ```
 "java.configuration.maven.globalSettings": "D:\\pgr\\apache-maven\\conf\\settings.xml"
 "java.configuration.maven.userSettings": "D:\\pgr\\apache-maven\\conf\\settings.xml"
+```
+
+
+
+
+- Tomcat 한글깨짐
+  - 레지스트리 키 추가할 것 (참고: https://steven-life-1991.tistory.com/91)
+> 컴퓨터\HKEY_CURRENT_USER\Console\Tomcat  
+> CodePage : 65001
+
+
+## Python 개발 환경
+- jupyter 시작폴더 위치 변경
+config file 생성
+```
+jupyter notebook --generate-config
+
+```
+config file 내 경로 수정
+```
+# C:\Users\사용자이름\.jupyter\jupyter_notebook_config.py
+# 주석 제거 후 원하는 위치 작성
+#c.NotebookApp.notebook_dir=''
+```
+- Shotcut 실행 경로 변경 (이것만 하면 되는 듯)
+```
+D:\pgr\Anaconda3\python.exe D:\pgr\Anaconda3\cwp.py D:\pgr\Anaconda3 D:\pgr\Anaconda3\python.exe D:\pgr\Anaconda3\Scripts\jupyter-notebook-script.py "D:\src\py"
 ```
 
 ## 특이사항
@@ -87,11 +121,6 @@
 ```
 - 참고사이트 : https://www.sysnet.pe.kr/Default.aspx?mode=2&sub=0&pageno=13&detail=1&wid=11980
 
-### Tomcat 한글깨짐
-- 레지스트리 키 추가 
-> 컴퓨터\HKEY_CURRENT_USER\Console\Tomcat
-> CodePage : 65001
-- 참고 : https://steven-life-1991.tistory.com/91
 
 ### HTTPIE 설치
 ```
