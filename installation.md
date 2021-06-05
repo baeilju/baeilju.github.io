@@ -8,6 +8,7 @@
     -> 이 부분이 귀찮아서 System Version 설치함
 - System Install Version
   - extensions, user-data folder 위치 변경은 아래와 같이 함
+  - code 매 실행 시에만 적용되는 옵션이고, 디폴트 설정은 아님
 ```
 code --extensions-dir="C:\Program Files\Microsoft VS Code\data\extensions"
 code --user-data-dir="C:\Program Files\Microsoft VS Code\data\user-data"
@@ -15,6 +16,14 @@ code --user-data-dir="C:\Program Files\Microsoft VS Code\data\user-data"
 
 ## Spring 개발 환경 구축
 - JDK 11 install version 설치
+- Tomcat
+  - Tomcat 한글깨짐
+    - 레지스트리 키 추가할 것 (참고: https://steven-life-1991.tistory.com/91)
+      컴퓨터\HKEY_CURRENT_USER\Console\Tomcat  
+      DWord32, CodePage, 10진수, 65001
+  - JAVA_HOME 환경변수 셋팅할 것
+  - vscode 내 setting.xml에서 java home 설정하면 오류 발생 -> ???
+
 - Tomcat, Maven은 최신 버전 binary Downloads
 - 설치 설정
   - https://devpad.tistory.com/8
@@ -46,10 +55,6 @@ MVN Repository 이동 시 아래 주석 해제하고 위치 지정하면 됨
 
 
 
-- Tomcat 한글깨짐
-  - 레지스트리 키 추가할 것 (참고: https://steven-life-1991.tistory.com/91)
-> 컴퓨터\HKEY_CURRENT_USER\Console\Tomcat  
-> CodePage : 65001
 
 
 ## Python 개발 환경
